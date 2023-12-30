@@ -68,13 +68,17 @@ svg,img { max-width: 100%; height: auto; }
 .ds-logo span{font-family: 'Roboto', sans-serif;display: block; font-size: 1rem; text-transform: lowercase; letter-spacing: 1px; margin-top: 0.9375rem; color: #524c4c}
 .ds-about-link-button{ position: absolute; right:3%; border: 1px solid #000; display: inline-block; padding: 0.7rem 0.4rem;line-height: 3px;top:61%;}
 .ds-about-link-button:hover{color: #000}
-.ds-about-link-button span{ display: block; color: #505050; font-size: 0.625rem; text-transform: uppercase; position: absolute; bottom:-13px;left: -12px;width: 55px; opacity: 0;transition-delay: 0s;transition-duration: 0.4s;transition-property: all;transition-timing-function: ease; }
+.ds-about-link-button span{ display: block; color: #505050; font-size: 0.625rem; text-transform: lowercase; position: absolute; bottom:-13px;left: -12px;width: 55px; opacity: 0;transition-delay: 0s;transition-duration: 0.4s;transition-property: all;transition-timing-function: ease; }
 .ds-closebutton{ position: absolute; bottom:-5rem; left: 0; right: 0; margin: 0 auto; display: inline-block; width:3.125rem; height: 3.125rem;font-size: 1.125rem; line-height: 3.125rem; color: #687278; border: 1px solid #687278; border-radius: 100%}
 
 .ds-about-link-button:hover span{ opacity:1  }
 .ds-slider-section,.ds-main-section{ padding: 7.5rem 0 }
 .ds-slider{ margin:0 }
 .ds-slider-loop{ padding-right:30px }
+
+.ds-slider-loop:hover span a{color: #C4ABC4}
+.ds-slider-loop:hover img{color: #C4ABC4}
+
 /*project name*/
 .ds-slider-loop span{font-family: 'Work Sans', sans-serif;text-transform: lowercase; font-size: 1.5rem;  display: inline-block; vertical-align: middle; margin-top: 1.125rem }
 .ds-slider-loop span a{ color:#000; }
@@ -98,7 +102,7 @@ svg,img { max-width: 100%; height: auto; }
 .ds-info .ds-socail a{font-size:1.45rem;font-weight: 400; margin: 0 0.875rem}
 .ds-info .ds-socail a:hover{ text-decoration: none; }
 
-.ds-project-section aside{ padding-right:4.375rem }
+.ds-project-section aside{ padding-right:4rem }
 .ds-project-section aside figure{ margin-bottom: 0.5rem }
 .ds-project-section section{position: sticky;top: 0;padding-top: 1px;}
 .ds-project-section section h1{ font-weight: 500; font-size: 1.875rem;font-family: 'Work Sans', sans-serif; padding-bottom: 0rem }
@@ -107,7 +111,7 @@ svg,img { max-width: 100%; height: auto; }
 .ds-projec-info li{ padding-right: 4.375rem; font-family: 'Roboto', sans-serif}
 .ds-projec-info li:last-child{ padding-right: 0; font-family: 'Roboto', sans-serif}
 .ds-projec-info strong{ font-weight: 600;display: block; font-family: 'Roboto', sans-serif}
-.ds-project-p { font-size: 1.125rem; line-height: 1.25rem; list-style-type: circle; padding-bottom: 0rem; font-family: 'Roboto', sans-serif}
+.ds-project-p { font-size: 1.125rem; line-height: 1.25rem; list-style-type: circle; padding-bottom: 4rem; font-family: 'Roboto', sans-serif}
 .ds-projec-p li{ padding-right: 4.375rem; font-family: 'Roboto', sans-serif}
 
 /*-----------------------------------------------------------------
@@ -116,10 +120,22 @@ svg,img { max-width: 100%; height: auto; }
 .ds-footer{ padding: 2.5rem 0; text-align: center; color: #000; font-size:0.75rem }
 .ds-footer a{color: #000 }
 .ds-footer a:hover{color: #000; text-decoration: underline; }
+.icon {
+    font-size: 1.4em; 
+	color:#C4ABC4
+}
+.iconArrow {
+    font-size: 1em; 
+	color:#C4ABC4;
+}
+.iconAboutMe {
+	color:#C4ABC4;
+}
 
 
-
-
+.coverPhoto:hover {
+	opacity:0.8;
+}
 
 /*-------------------------------------------------------------------------------
  XS Style @media (max-width: 767px) 
